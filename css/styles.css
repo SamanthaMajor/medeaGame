@@ -11112,10 +11112,11 @@ body {
 
 .about-section {
   padding-top: 10rem;
-  background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.8) 100%);
+  background: #89773b
 }
 .about-section p {
-  margin-bottom: 5rem;
+  margin-bottom: 4rem;
+
 }
 
 .projects-section {
