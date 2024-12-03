@@ -629,7 +629,11 @@ progress {
   color: #6c757d;
 }
 
-.container,
+.container {
+  font-size: medium;
+}
+
+
 .container-fluid,
 .container-xxl,
 .container-xl,
