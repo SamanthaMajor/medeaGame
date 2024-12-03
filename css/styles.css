@@ -77,8 +77,8 @@
   --bs-border-radius-xl: 1rem;
   --bs-border-radius-2xl: 2rem;
   --bs-border-radius-pill: 50rem;
-  --bs-link-color: #64a19d;
-  --bs-link-hover-color: #50817e;
+  --bs-link-color: #89773b;
+  --bs-link-hover-color: #89773b;
   --bs-code-color: #d63384;
   --bs-highlight-bg: #faf4e0;
 }
@@ -2852,7 +2852,7 @@ textarea.form-control-lg {
   --bs-btn-bg: #89773b;
   --bs-btn-border-color: #64a19d;
   --bs-btn-hover-color: #fff;
-  --bs-btn-hover-bg: #558985;
+  --bs-btn-hover-bg: #;
   --bs-btn-hover-border-color: #50817e;
   --bs-btn-focus-shadow-rgb: 123, 175, 172;
   --bs-btn-active-color: #fff;
@@ -4221,8 +4221,8 @@ textarea.form-control-lg {
 }
 
 .card {
-  --bs-card-spacer-y: 1rem;
-  --bs-card-spacer-x: 1rem;
+  --bs-card-spacer-y: 3rem;
+  --bs-card-spacer-x: 3rem;
   --bs-card-title-spacer-y: 0.5rem;
   --bs-card-border-width: 1px;
   --bs-card-border-color: var(--bs-border-color-translucent);
@@ -10986,8 +10986,8 @@ body {
 #mainNav .navbar-toggler {
   font-size: 80%;
   padding: 0.75rem;
-  color: #64a19d;
-  border: 1px solid #64a19d;
+  color: #6e5f2f;
+  border: 1px solid #6e5f2f;
 }
 #mainNav .navbar-toggler:focus {
   outline: none;
@@ -11041,13 +11041,13 @@ body {
     border-bottom: 0.25rem solid transparent;
   }
   #mainNav.navbar-shrink .nav-link:hover {
-    color: #64a19d;
+    color: #6e5f2f;
   }
   #mainNav.navbar-shrink .nav-link:active {
-    color: #467370;
+    color: #89773b;
   }
   #mainNav.navbar-shrink .nav-link.active {
-    color: #64a19d;
+    color: #6e5f2f;
     outline: none;
     border-bottom: 0.25rem solid #64a19d;
   }
@@ -11162,10 +11162,11 @@ body {
 
 .contact-section {
   padding-top: 5rem;
+  background: #6e5f2f;
 }
 .contact-section .card {
   border: 0;
-  border-bottom: 0.25rem solid #64a19d;
+  border-bottom: 0.25rem solid #000;
 }
 .contact-section .card h4, .contact-section .card .h4 {
   font-size: 0.8rem;
@@ -11200,4 +11201,5 @@ body {
 
 .footer {
   padding: 5rem 0;
+  background: #6e5f2f;
 }
