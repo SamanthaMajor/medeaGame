@@ -1,0 +1,71 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background: url("../assets/img/MedeaGamePhoto.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+}
+
+a, a:link, a:visited {
+    color: #e4c662;
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: rgb(255, 245, 213);
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+.game {
+    display: inline-block;
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 100px;
+}
+
+p {
+    color: black;
+    background-color: white;
+    font-size: x-large;
+    border: 3px solid #e4c662;
+}
+
+button {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    color: black;
+    background-color: white;
+    border: 3px solid #e4c662;
+    border-radius: 2px;
+}
+
+button:hover {
+    color: black;
+    background-color: white;
+}
+
+.end {
+    color: red;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    display: inline-block;
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
